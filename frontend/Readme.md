@@ -23,8 +23,8 @@ To get started with the Summary Maker frontend project, follow these steps:
 1. Clone the repository from GitHub:
 
 ```bash
-git clone https://github.com/parvej-khan-dev/frontend.git
-cd frontend-summary-maker
+git clone https://github.com/ramanbhola22/bbc-summarize.git
+cd frontend
 ```
 
 2. Install project dependencies using npm or yarn:
@@ -53,7 +53,7 @@ The main feature of this application is to provide users with summarized version
 
 ### Limit on Number of Links
 
-user can summrized once a time update to 5 articles via paste 5 links
+user can summarized once a time update to 5 articles via paste 5 links
 
 ### Delete Functionality
 

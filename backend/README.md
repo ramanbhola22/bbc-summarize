@@ -31,7 +31,12 @@ The project includes an API endpoint that enables users to delete a specific art
 
 To set up and run the project on your local machine, follow these steps:
 
-1. Clone the repository from https://github.com/parvej-khan-dev/backend.git.
+1. Clone the repository from https://github.com/ramanbhola22/bbc-summarize.git.
+
+```bash
+git clone https://github.com/ramanbhola22/bbc-summarize.git
+cd frontend
+```
 
 2. Install the required dependencies using the following command:
 
@@ -43,13 +48,26 @@ To set up and run the project on your local machine, follow these steps:
 
 4. Obtain an API key from OpenAI to access their API services for article summarization.
 
-5. Update the configuration file to include your OpenAI API key.
+5. Create .env file in root directory on backend and Update your data
+
+```bash
+DB_HOST='YOUR DB HOST NAME'
+DB_PORT='YOUR PORT NAME'
+DB_USER='YOUR USER NAME'
+DB_PASS='YOUR USER PASSWORD'
+DB_DIALECT=postgres
+DB_NAME_DEVELOPMENT='YOUR DATABASE NAME'
+OPENAI_API='YOUR OPEN AI API KEY'
+
+```
 
 6. Start the application using the following command:
 
    ```
-   npm run start
+   npm run start:dev
    ```
+
+This will start the development server and launch the application in your default web browser. You can access it at `http://localhost:4000/`.
 
 ## API Documentation
 
@@ -118,7 +136,7 @@ Please note that you can replace `ARTICLE_LINK_OR_URL`, `ARTICLE_ID`, `Article t
 
 ## Contribution
 
-We welcome contributions to improve and enhance this project. If you find any issues or have ideas to make it better, please feel free to create a pull request or submit an issue on the [GitHub repository](URL).
+We welcome contributions to improve and enhance this project. If you find any issues or have ideas to make it better, please feel free to create a pull request or submit an issue on the [GitHub repository](https://github.com/ramanbhola22/bbc-summarize.git).
 
 ## License
 
