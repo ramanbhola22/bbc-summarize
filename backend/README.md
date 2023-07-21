@@ -92,7 +92,7 @@ Response:
 {
   "title": "Article title",
   "content": "SUMMARIZED_ARTICLE_CONTENT",
-  "Source": "Source of content like: bbc.com",
+  "source": "Source of content like: bbc.com",
   "url": "article link"
 }
 ```
@@ -111,7 +111,7 @@ Response:
       "id": "ARTICLE_ID",
       "title": "Article title",
       "content": "SUMMARIZED_ARTICLE_CONTENT",
-      "Source": "Source of content like: bbc.com",
+      "source": "Source of content like: bbc.com",
       "url": "article link"
     },
     ...
