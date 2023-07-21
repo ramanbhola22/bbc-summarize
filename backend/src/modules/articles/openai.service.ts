@@ -20,7 +20,10 @@ export class OpenAIService {
 
     // Create messages in the format required for chat-based models
     const messages = [
-      { role: 'user', content: `Summarize below 3 line ${text}` },
+      {
+        role: 'user',
+        content: `TLDR following articles max up to 3 line  ${text}`,
+      },
     ];
 
     try {

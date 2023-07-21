@@ -27,6 +27,7 @@ const CreatePost = () => {
 
   // its send api request for article summarizer when click on submit button
   const handleSubmit = (paylaod: string[]) => {
+    setLoading(true);
     linkPost(paylaod)
       .then((res: any) => {
         setLoading(true);
