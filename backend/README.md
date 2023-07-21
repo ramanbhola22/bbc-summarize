@@ -33,10 +33,10 @@ To set up and run the project on your local machine, follow these steps:
 
 1. Clone the repository from https://github.com/ramanbhola22/bbc-summarize.git.
 
-```bash
-git clone https://github.com/ramanbhola22/bbc-summarize.git
-cd frontend
-```
+   ```
+   git clone https://github.com/ramanbhola22/bbc-summarize.git
+   cd frontend
+   ```
 
 2. Install the required dependencies using the following command:
 
@@ -50,16 +50,17 @@ cd frontend
 
 5. Create .env file in root directory on backend and Update your data
 
-```bash
-DB_HOST='YOUR DB HOST NAME'
-DB_PORT='YOUR PORT NAME'
-DB_USER='YOUR USER NAME'
-DB_PASS='YOUR USER PASSWORD'
-DB_DIALECT=postgres
-DB_NAME_DEVELOPMENT='YOUR DATABASE NAME'
-OPENAI_API='YOUR OPEN AI API KEY'
+   ```bash
 
-```
+     DB_HOST='YOUR DB HOST NAME'
+     DB_PORT='YOUR PORT NAME'
+     DB_USER='YOUR USER NAME'
+     DB_PASS='YOUR USER PASSWORD'
+     DB_DIALECT=postgres
+     DB_NAME_DEVELOPMENT='YOUR DATABASE NAME'
+     OPENAI_API='YOUR OPEN AI API KEY'
+
+   ```
 
 6. Start the application using the following command:
 
